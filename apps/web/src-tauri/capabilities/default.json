@@ -1,0 +1,12 @@
+{
+  "identifier": "default",
+  "description": "Default capabilities for Hit It desktop app",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "global-shortcut:allow-is-registered",
+    "global-shortcut:allow-register",
+    "global-shortcut:allow-unregister",
+    "notification:default"
+  ]
+}

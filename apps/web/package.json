@@ -1,0 +1,39 @@
+{
+  "name": "hit-it-web",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "analyze": "ANALYZE=true next build"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zustand": "^5.0.13",
+    "dexie": "^4.4.3",
+    "dexie-react-hooks": "^4.0.10",
+    "lucide-react": "^1.16.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.4.0",
+    "gsap": "^3.15.0",
+    "@gsap/react": "^2.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.3.0",
+    "@tailwindcss/postcss": "^4.3.0",
+    "postcss": "^8.5.0",
+    "eslint": "^9.22.0",
+    "eslint-config-next": "16.2.6",
+    "@tauri-apps/cli": "^2.5.0"
+  }
+}
